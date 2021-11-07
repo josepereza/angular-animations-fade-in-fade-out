@@ -1,4 +1,16 @@
 # Angular Animations Demo
+# otra posibilidad para angular animations fade in - fade out es:
+```
+trigger('myInsertRemoveTrigger', [
+  transition(':enter', [
+    style({ opacity: 0 }),
+    animate('100ms', style({ opacity: 1 })),
+  ]),
+  transition(':leave', [
+    animate('100ms', style({ opacity: 0 }))
+  ])
+]),
+```
 
 This is a demo of animation features in Angular.
 
