@@ -1,5 +1,5 @@
 # Angular Animations Demo
-# otra posibilidad para angular animations fade in - fade out es:
+### otra posibilidad para angular animations fade in - fade out es:
 ```
 trigger('myInsertRemoveTrigger', [
   transition(':enter', [
